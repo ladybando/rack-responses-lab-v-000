@@ -7,8 +7,8 @@ class Application
    
 
     if time > 12
-      resp.write "You Win"
-    else
+      resp.write "Good Morning!"
+    else 
       resp.write "You Lose"
     end
  
