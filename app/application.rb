@@ -6,7 +6,7 @@ class Application
     time = Time.new(2018, 9, 20, 12, 00, 00)
    
 
-    if num_1==num_2 && num_2==num_3
+    if time > 12
       resp.write "You Win"
     else
       resp.write "You Lose"
