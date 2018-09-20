@@ -3,7 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
  
-    time = Time.new
+    time = Time.new(2018,)
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
     resp.write "#{num_3}\n"
